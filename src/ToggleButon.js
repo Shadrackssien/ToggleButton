@@ -11,7 +11,9 @@ function ToggleButton() {
     }
     return (
         <section style={{backgroundColor, color: `${textColor}`}}>
-            <button onClick={handleClick} style={{backgroundColor: backgroundColor, color: `${textColor}` }}>White Theme</button>
+            <button onClick={handleClick} style={{backgroundColor: backgroundColor, color: `${textColor}` }}>
+                {backgroundColor === "#1b1b1b" ? "Black Theme" : "White Theme"}
+            </button>
             <section className="content">
                 <h1>Welcome to Shadrack Essien's <br/>
                     Supper Toggle Button

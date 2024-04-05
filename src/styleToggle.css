@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #1b1b1b;
+}
+
+section.content h1 {
+    font-family: "Bungee Outline", sans-serif;
+    line-height: 18px;
+}
